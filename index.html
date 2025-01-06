@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+            font-size: 2.5em; /* Element Selector */
+        }
+        .highlight {
+            background-color: #f0f8ff; /* Class Selector */
+        }
+        #uniqueElement {
+            border: 2px solid #000; /* ID Selector */
+        }
+        p {
+            text-align: justify; /* Internal CSS */
+        }
+        .card {
+            padding: 20px;
+            margin: 15px;
+            background-color: #e0f7fa;
+            border: 1px solid #b2ebf2;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;">Welcome to CSS Assignment</h1> <!-- Inline CSS -->
+    <p>This is a paragraph that describes the CSS assignment. It will be styled using various CSS techniques.</p>
+    <div id="uniqueElement" class="highlight">
+        <p>This section has a unique ID and a class applied to it.</p>
+    </div>
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a description inside the card component.</p>
+    </div>
+    <a href="#" class="link">Hover over me!</a>
+</body>
+</html>
